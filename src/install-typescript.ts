@@ -1,3 +1,3 @@
-let message: string = "hello TS!"
+let message: string = "hello TS!";
 
 console.log({ message });
