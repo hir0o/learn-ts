@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/mkmk4423/learn-ts/issues"
   },
-  "homepage": "https://github.com/mkmk4423/learn-ts#readme"
+  "homepage": "https://github.com/mkmk4423/learn-ts#readme",
+  "devDependencies": {
+    "typescript": "^3.7.5"
+  }
 }
