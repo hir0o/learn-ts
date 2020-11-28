@@ -1,5 +1,7 @@
 export {};
 
+// readonlyは，代入ができない．
+
 class VisaCard {
   // publicは省略できるけど，しない方が明示的でわかりやすい
   // また，readonlyの着脱がやりやすいメリットがある．
@@ -7,5 +9,7 @@ class VisaCard {
 }
 
 let myCard = new VisaCard("hiroyuki");
+// 読み取りはできる．
 console.log(myCard.owner);
-// myCard.owner = "kazusa";
+// 代入はできない．
+myCard.owner = "kazusa";

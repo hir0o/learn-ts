@@ -1,5 +1,7 @@
 export {};
 
+// 名前空間でクラスを管理する
+
 // (1) namespaceで名前空間を作成
 namespace Javanese {
   // (2)外から見えるようにexportが必要
