@@ -18,3 +18,5 @@ let object: ObjectInterface = {
 };
 
 console.log(object);
+
+// typeとaliasの違いは？

@@ -1,5 +1,8 @@
 export {};
 
+// type命令について
+
+// stringの別名
 type Mojiretsu = string;
 
 let nameString: string = "hiroyuki";

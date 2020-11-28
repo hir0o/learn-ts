@@ -1,5 +1,6 @@
 export {};
 // イナム
+// 列挙型
 
 enum Months {
   January = 1,

@@ -1,5 +1,7 @@
 export {};
 
+// 違う型の属性を併せ持つ型を作る
+
 type Pitcher1 = {
   throwingSpeed: number;
 };
