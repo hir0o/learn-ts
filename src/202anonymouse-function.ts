@@ -1,4 +1,5 @@
 export {};
+// 無名関数の型
 
 let bmi: (height: number, weight: number) => number = function (
   height: number,

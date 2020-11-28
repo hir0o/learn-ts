@@ -1,5 +1,7 @@
 export {};
 
+// あってもなくてもいい型
+
 let bmi: (height: number, weight: number, isOutput?: boolean) => number = (
   height: number,
   weight: number,

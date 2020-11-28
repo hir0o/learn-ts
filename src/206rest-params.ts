@@ -1,5 +1,7 @@
 export {};
 
+// Restパラメータ
+
 const reducer: (accumulator: number, currentValue: number) => number = (
   accumulator: number,
   currentValue: number

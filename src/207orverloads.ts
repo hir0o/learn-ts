@@ -1,6 +1,7 @@
 export {};
 // シグネチャー
 
+// 型だけ書くと，シグネチャー
 function double(value: number): number;
 function double(value: string): string;
 

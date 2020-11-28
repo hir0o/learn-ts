@@ -1,4 +1,5 @@
 export {};
+// アロー関数の型
 
 let bmi: (height: number, weight: number) => number = (
   height: number,
