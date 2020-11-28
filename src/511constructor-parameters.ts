@@ -15,9 +15,9 @@ type PersonType = typeof Person;
 type Profile = ConstructorParameters<PersonType>;
 
 const profile: Profile = ["kazu", 22];
-const lazu = new Person(...profile);
+const kazu = new Person(...profile);
 
-console.log(lazu);
+console.log(kazu);
 
 type MyConstructorParameters<
   T extends new (...args: any) => any

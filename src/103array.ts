@@ -8,7 +8,7 @@ let numbers: number[] = [1, 2, 3];
 let numbers2: Array<number> = [1, 2, 3, 4];
 let strings2: Array<string> = ["tokyo", "nagoya"];
 
-// numbers.forEach((num) => console.log(num));
+numbers.forEach((num) => console.log(num));
 
 let strings: string[] = ["ts", "js", "js"];
 

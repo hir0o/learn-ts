@@ -1,5 +1,7 @@
 export {};
 
+// 中身をsラベル
+
 type MyExclude =
   | (string extends string | number ? never : string) // never
   | (number extends string | number ? never : number) // never

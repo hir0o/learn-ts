@@ -7,7 +7,7 @@ class Souryo {}
 // js は多重継承できない．
 // → 複数のinterfaceは継承(厳密には実装という)できる．
 
-class Taro extends Mahoutsukai, Souryo {}
+// class Taro extends Mahoutsukai, Souryo {} // エラー
 
 interface Kenja {
   ionazun(): void; // シグネチャー

@@ -6,7 +6,7 @@ type Profile = {
 };
 
 type PartialProfule = Partial<Profile>;
-type PropertyTypes = keyof Profile;
+type PropertyTypes = keyof Profile; // type PropertyTypes = "name" | "age"
 
-type Optional<T> = { [P in keyof T]?: T[P] | null };
-type OptionlProfile = Optional<Profile>;
+type MyOptional<T> = { [P in keyof T]?: T[P] };
+type OptionlProfile = MyOptional<Profile>;

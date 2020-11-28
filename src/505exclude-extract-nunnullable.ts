@@ -10,6 +10,7 @@ type FunctionType = Exclude<SomeTypes, string | number>;
 type nunFunctionType = Exclude<SomeTypes, DebugType>;
 // 関数の型だけを除外する(Functionは，関数型の総称)
 type typeExcludingFunction = Exclude<SomeTypes, Function>;
+
 // Extract 型を取り出す
 // DebugTypeだけを取り出す
 type FunctionTypeByExtract = Extract<SomeTypes, DebugType>;
@@ -17,6 +18,7 @@ type FunctionTypeByExtract = Extract<SomeTypes, DebugType>;
 type NonFunctionTypeByExtract = Extract<SomeTypes, string | number>;
 // 関数の型だけを取り出す
 type FunctionTypeExtractingFunction = Extract<SomeTypes, Function>;
+
 // nonnullable
 type NullableTypes = string | number | null | undefined;
 // ulllとundefindを除外する
